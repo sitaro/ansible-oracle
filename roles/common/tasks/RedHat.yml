@@ -51,3 +51,8 @@
   tags:
     - commonpackages
   notify: Reboot concerning package updates
+
+- name: Install cx_oracle
+  pip:
+    name: cx_oracle
+    state: present
